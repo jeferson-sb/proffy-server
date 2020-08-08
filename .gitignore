@@ -1,0 +1,7 @@
+.vscode/
+.idea/
+node_modules/
+temp
+build
+*.sqlite
+*.sqlite3
