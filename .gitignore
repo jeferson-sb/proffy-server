@@ -5,3 +5,4 @@ temp
 build
 *.sqlite
 *.sqlite3
+.env
