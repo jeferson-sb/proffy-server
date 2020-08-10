@@ -1,6 +1,9 @@
-# Proffy Server
+<div align="center">
+  <img src=".github/logo.svg">
 
 ![](https://img.shields.io/badge/nextlevelweek-2.0-blueviolet?style=flat-square)
+
+</div>
 
 ## 💡 Project
 
@@ -25,11 +28,17 @@ Proffy is a web platform that helps you connect with students and teachers.
 
 ```bash
 $ cd proffy-server
+$ yarn
+```
+
+> Rename `.env.example` to `.env` and update the database settings
+
+### Usage
+
+```bash
 $ yarn knex:migrate
 $ yarn dev:server
 ```
-
-### Usage
 
 ### API Endpoints
 
